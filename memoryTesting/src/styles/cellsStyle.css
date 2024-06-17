@@ -1,0 +1,21 @@
+.cell {
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--cellsBackground);
+  transition: all 0.5s;
+}
+
+.cell:hover {
+  border-radius: 50px 0 0 0;
+  transition: all 0.5s;
+}
+
+.computed-cells {
+  background: var(--computedCellsBackground);
+}
+
+.cell-active {
+  background: var(--activeCellsBackground);
+}

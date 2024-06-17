@@ -1,0 +1,17 @@
+.wrapper {
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+}
+
+.wrapper_active {
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+  visibility: visible;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 15px;
+  background-color: var(--primaryBackground);
+  transform: perspective(200px);
+}

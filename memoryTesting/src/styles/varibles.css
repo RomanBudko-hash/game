@@ -1,0 +1,7 @@
+:root {
+  --bodyBackground: #304a62;
+  --primaryBackground: #ed8abd;
+  --cellsBackground: #304a62;
+  --computedCellsBackground: #23d2ec;
+  --activeCellsBackground: #ffffff;
+}
